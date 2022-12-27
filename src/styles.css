@@ -1,0 +1,26 @@
+body {
+    background-image: url('https://rabbidunner.com/wp-content/uploads/2020/08/learn_from_your_mistakes_stock-scaled.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    cursor: pointer;
+}
+
+.first {
+    font-size: large;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.second {
+    color: beige;
+}
+
+.first:hover {
+    color: yellow;
+}
+
+.second:hover {
+    color: mediumspringgreen;
+}
+
