@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         {
-          <><FirstComponent name="Thieves105"/><SecondComponent/> \</>}
+          <><FirstComponent name="Thieves105"/><SecondComponent/></>}
       </div>
     )
   }
