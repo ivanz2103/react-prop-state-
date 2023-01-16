@@ -1,7 +1,7 @@
-const FirstComponent = (props) => {
+const FirstComponent = () => {
     return (
       <div className='first'>
-        Hello, {props.name}! 👨‍💻👩‍💻
+        <h1>Hello, Thieves105! 👨‍💻👩‍💻</h1>
       </div>
     );
     

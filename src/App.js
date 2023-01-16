@@ -1,23 +1,14 @@
-import { Component } from 'react';
-import FirstComponent from './component/one/first';
 import './App.css';
-import SecondComponent from './component/two/second';
-import './styles.css'
+import './styles.css';
+import {Routes, Route} from 'react-router-dom'
+import Home from './routes/Home/Home';
 
-class App extends Component {
-  constructor() {
-    super()
-    this.state = {
-    }
-  }
-
-  render() {
-    return (
-      <div className="App">
-        {
-          <><FirstComponent name="Thieves105"/><SecondComponent/></>}
-      </div>
+const App = () => {
+  return (
+    <Routes>
+    <Route path='/' element={<Home/>}/>
+    </Routes>
     )
   }
-}
-export default App;
+
+  export default App;
